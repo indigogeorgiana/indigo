@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Reflections of a Web Developer Wannabe(PAGE title) </title>
+    <meta charset="UTF-8">
+    <link href="your-stylesheet-link-here.css" rel="stylesheet" type="text/css">
+  </head>
+  
+  <body>
+    <h1>To ghostwrite or not to ghostwrite? That is the question.(PAGE heading)</h1>
+    <h2>Considering freelancing as a ghostwriter? There many questions you should as yourself first. <em></em> (Optional SUB title) </h2>
+    <h3>ADD DATE HERE</h3>
+    
+    <p>
+
+   
+    </p>
+    <p>
+    ADD MORE CONTENT HERE
+    </p>
+    <p>
+     ADD MORE CONTENT HERE
+    </p>
+    
+    <!-- this is a comment. -->
+  
+  </body>
+</html>
