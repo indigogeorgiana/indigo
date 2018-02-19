@@ -1,0 +1,19 @@
+body {
+    background:#999;
+    font-family: arial;
+
+}
+
+h1, h2, p, li {
+    color: #000;
+}
+
+a {
+    colour:green;
+}
+
+p {
+    background: #666;
+    color: white;
+    padding: 10px 0px;
+}
