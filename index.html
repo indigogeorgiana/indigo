@@ -1,32 +1,73 @@
 <!DOCTYPE html>
   <html>
     <head>
-      <title>Homepage</title>
+      <title>My Homepage</title>
        <meta charset="UTF-8">    
         <link href="styles/main.css" rel="stylesheet" type="text/css"/>
-        </head>
-        <body>
-        <div class="background">
-        <br></br>
-          <h1>MY WEB DEV WANNABE BLOG</h1>
-           <br></br>
-            <br></br> 
-             <br></br>
-             <center>
-         <h2>Welcome to a day in the life of a Web Dev Wannabe. Hi all my names Indigo and I'll be attending with the Mamaku Cohort in Auckland.</h2>
-          
-             <h3>CHECK OUT MY PAGE ON THE LINKS BELOW</h3>
-             <ol><ul></ul></ol>
+           </head>
+             <body>
+             <div class="background">
+             <header>
              <nav>
-             <form>
-            <input class="MyButton1" type="button" value="Sprint Reflection" onclick="window.location.href='//C:/Users/GhostWriter/.babun/cygwin/home/GhostWriter/workspace/indigogeorgiana/blog.html/c1-reflection-blog.html'"/>   
-            <input class="MyButton1" type="button" value="Time and Habits Blog" onclick="window.location.href='//C:/Users/GhostWriter/.babun/cygwin/home/GhostWriter/workspace/indigogeorgiana/blog.html/c1-time-and-habits-blog.html'"/>
-            <input class="MyButton1" type="button" value="Emotional Intelligence" onclick="window.location.href='//C:/Users/GhostWriter/.babun/cygwin/home/GhostWriter/workspace/indigogeorgiana/blog.html/emotional-intelligence-blog.html'"/>
-            <input class="MyButton1" type="button" value="Udacity Part 1" onclick="window.location.href='//C:/Users/GhostWriter/.babun/cygwin/home/GhostWriter/workspace/indigogeorgiana/blog.html/udacity-blog-part1.html'"/>
-            <input class="MyButton1" type="button" value="Udacity Part 2" onclick="window.location.href='//C:/Users/GhostWriter/.babun/cygwin/home/GhostWriter/workspace/indigogeorgiana/blog.html/udacity-blog-part2.html'"/>
-         </form> 
-       </nav>
-     </center>
+               <ul>
+             <div class="mainheader">MY WEB DEV WANNABE BLOG</div>
+             <ul>
+              <div class="dropdown">
+              <button onclick="myFunction()" class="dropbtn">Home</button>
+              <div id="myDropdown" class="dropdown-content">
+                  <link href="index.html">Homepage</a>               
+              </div>   
+              <button onclick="myFunction()" class="dropbtn">Blogs</button>
+              <div id="myDropdown" class="dropdown-content">
+                <link href="reflection-blog.html">Reflection Blog</a>
+                <link href="c1-time-and-habits-blog.html">Time and Habits</a>
+                <link href="udacity-blog-part1.html">Udacity Blog Part One</a>
+                <link href="udacity-blog-part-2.html">Udacity Blog Part Two</a>
+                <link href="emotional-intelligence-blog.html">Emotional Intelligence Blog</a>
+              </div>   
+            <button onclick="myFunction()" class="dropbtn">About</button>
+            <div id="myDropdown" class="dropdown-content">
+              <link href="#"><button>Web Dev Wannabe</button></a>
+            </div>
+            </div> 
+             </ul>
+             </nav>
+             </header>
+             <br></br>   
+             <br></br>
+             <br></br> 
+             <br></br>
+             <br></br> 
+             <div class="h1">Welcome to a day in the life of a being a Web Dev Wannabe</div>
+             <div class="h1">Hi all my names Indigo and I'll be attending with the Mamaku Cohort in Auckland</div>
+             <br></br>
+             <br></br> 
+             <br></br>
+             <br></br> 
+             <br></br>                 
+         <div class="footer">&#169; 2018 Web Dev Wannabe</div>
+         <script>
+            /* When the user clicks on the button, 
+            toggle between hiding and showing the dropdown content */
+            function myFunction() {
+                document.getElementById("myDropdown").classList.toggle("show");
+            }
+            
+            // Close the dropdown if the user clicks outside of it
+            window.onclick = function(event) {
+              if (!event.target.matches('.dropbtn')) {
+            
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                  var openDropdown = dropdowns[i];
+                  if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                  }
+                }
+              }
+            }
+      </script>
      </div> 
   </body>
 </html>
