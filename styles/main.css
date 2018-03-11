@@ -1,56 +1,38 @@
+/********************************************************************/
+/****OTHER PAGE CONTENT*****/
+
 body, html {
 	margin: 0;
+	height:100%;
 }
 
-
-/* Web Page Header*/
-header {
-	padding: 10px 50px 50px 50px;
-	background:black;
-	color:white;
-	opacity: 0.7;
-	}
-
-.mainheader {
-	font-size: 250%;
+ul li {
 	font-family: Calibri;
-	font-weight: bold;
-	padding-top: 0.5px;
-	color: white;
-	display: inline-block;
+	font-size: 110%;
+	font-weight: 100%;
+	padding: 20px 90px 10px 150px;
+	color: #000;
 }
 
-ul li p{
-	padding-left: 100px;
-
+ul.a {
+	list-style-position: inside;
+	padding: 0 50px 0px 15px;
 }
+
 nav ul {
-	margin: 0;
-	padding: 0 0 0 15px;
+	padding: 0 10px 0 80px;
 	display: inline-block;
 	background: black;
-}
-
-nav ul li {
-	color: white;
-	display: inline-block;
-	padding: 5px 15px;
-}
-
-nav ul li a {
-	color: white;
 }
 
 p 	{
 	font-family: Calibri;
 	font-size: 120%;
-	font-weight: 575;
-	padding-top: 10px;
-	padding: 20px 20px 100px 100px;
+	padding: 20px 90px 10px 150px;
 	color: #000;
 	}
-
-/* Main Heading*/	
+/***************************************************************************************/
+/* Main Headings*/	
 .h1 {
 	font-family: Calibri;
 	font-size: 190%;
@@ -64,8 +46,8 @@ p 	{
 	font-family: Calibri;
 	font-size: 120%;
 	text-align: left;
-	padding-left: 100px;
-	padding-top: 5px;
+	padding-left: 140px;
+	padding-top: 20px;
 	color: #000;
 	}
 	
@@ -78,11 +60,30 @@ p 	{
 	padding: 10px 0 20px 20px;
 	color: black;
 }
+/* Web Page Headers*/
+header {
+	padding: 10px 10px 5px 150px;
+	background:black;
+	color:white;
+	opacity: 0.7;
+	}
+
+.mainheader {
+	font-size: 200%;
+	font-family: Calibri;
+	font-weight: bold;
+	padding: 5px 15px 5px 100px;
+	color: white;
+	display: inline;
+	} 
+/***********************************************************************************/
+/*IMAGE CONTENT*/
 
 /* Homepage(Index Page) Background Image*/
 .background {
 /* The image used */
 	background-image: url("../img/workoffice.jpg");
+	height: 100%;
 	margin: 0;
 	
 /* Center and scale the image nicely */
@@ -92,10 +93,21 @@ p 	{
 	width: 100%;
 	}
 
+/*About Me Blog - Image */	
+.background6 { 
+	background-image: url("../img/tukutuku.jpg");
+	height: 150%; 
+	margin:0;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	}	
+
 /* Reflection Blog One - Image */
 .background1 { 
 	background-image: url("../img/pinkgeo.png");
-	height: 200%;
+	height: 260%;
 	margin:0; 
 	background-position: center;
 	background-repeat: no-repeat;
@@ -106,7 +118,7 @@ p 	{
 /*c1-time and habits reflection - Image*/
 .background2 { 
 	background-image: url("../img/whitewash.jpg");
-	height: 200%; 
+	height: 220%; 
 	margin:0;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -117,7 +129,7 @@ p 	{
 /*Udacity Blog Part 1 - Images*/	
 .background3 { 
 	background-image: url("../img/geometric.png");
-	height: 200%; 
+	height: 500%; 
 	margin:0;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -128,7 +140,7 @@ p 	{
 /*Ucadity Blog Part 2 - Images */
 .background4 { 
 	background-image: url("../img/space.jpg");
-	height: 200%; 
+	height: 220%; 
 	margin:0;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -146,44 +158,28 @@ p 	{
 	background-size: cover;
 	width: 100%;
 	}
-
-/* Reflection Blog One - Button*/
-input.MyButton2 {
-	width: 250px;
-	padding: 20px;
+	
+/*************************************************************************/
+ /* Index/Homepage -  Dropdown Button*/
+ .dropbtn1 {
+    background-color: #00e600;
+    color: #333333;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
 	cursor: pointer;
-	font-weight: bold;
-	font-size:110%;
-	background: brown;
-	color: black;
-	border: 3px solid black;
-	border-radius: 25px;
-	float: right;
-	}
-input.MyButton2:hover {
-	background-color: brown;
-	color: white;
-	border: 3px solid #fff;
-	}
-
-/* c1 Time and Habits Blog Buttons */
-input.MyButton3 {
-	width: 250px;
-	padding: 20px;
-	cursor: pointer;
-	font-weight: bold;
-	font-size:110%;
-	background:white;
-	color:black;
-	border: 3px solid black;
-	border-radius: 25px;
-	float: right;
-	}
-input.MyButton3:hover {
-	background: black;
-	color: white;
-	border: 3px solid #fff;
-	}
+ }
+ 	
+/**********************************************************************************/
+/* Udacity Blog Part One - Dropdown Button*/
+.dropbtn8 {
+    background-color: orangered;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}	  
 
  /*Udacity Blog Part 1 - Buttons */
  input.MyButton4 {
@@ -192,49 +188,116 @@ input.MyButton3:hover {
 	cursor: pointer;
 	font-weight: bold;
 	font-size:110%;
-	background: #ff9800;
+	background-color: orangered;
 	color: black;
-	border: 3px solid orangered;
-	border-radius: 25px;
+	border: 3px solid black;
+	border-radius: 5px;
 	float: right;
 	}
-
 input.MyButton4:hover {
-	background: orangered;
+	background: #ffb833;
 	color: white;
 	border: 3px solid #fff;
 	}	
-	  
 
- /*Udacity Part 2 - Buttons*/
+/*********************************************************************************************/
+/* Udacity Part 2 Page Dropdown Button 2*/
+.dropbtn2 {
+    background-color: #ffb3b3;
+    color: #ff1a1a ;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/*Udacity Part 2 Dropdown Header Button 3 */
+.dropbtn3 {
+    background-color:#b3b3ff;
+    color: #8000ff;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+/* Udacity Part 2 Dropdown Header Button 4*/
+.dropbtn4 {
+    background-color: #b3ffff;
+    color: #00cccc;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/*Udacity Part 2 Bottom Button*/
 input.MyButton5 {
 	width: 250px;
 	padding: 20px;
 	cursor: pointer;
 	font-weight: bold;
 	font-size:110%;
-	background: #51545a;
+	background:#6600ff;
 	border: 3px solid #0d0e11;
-	border-radius: 25px;
+	border-radius: 5px;
 	float: right;
 	}
 input.MyButton5:hover {
-	background: black;
-	color: white;
+	background-color:#8533ff;
+    color: #8000ff;
 	border: 3px solid #fff;
 	}
 	
-/* Emotional Intelligence - Button */
-input.MyButton6 {
+/**********************************************************************************/
+/* Time & Habits Blog Dropdown Header Buttons*/
+.dropbtn5 {
+    background-color:#ffff00;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+/* Time & Habits Blog Bottom Page Button */
+input.MyButton3 {
 	width: 250px;
 	padding: 20px;
 	cursor: pointer;
 	font-weight: bold;
 	font-size:110%;
-	background: dodgerblue;
-	color:blue;
+	background-color:#ffff00;
+    color: black;
+	border: 3px solid black;
+	border-radius: 5px;
+	float: right;
+	}
+input.MyButton3:hover {
+	background: black;
+	color: white;
+	border: 3px solid #fff;
+	}
+/*************************************************************************/
+/* Emotional Intel Blog - Dropdown Button */
+.dropbtn6 {
+    background-color:#66a3ff;
+    color: #003d99;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+	}
+/* Emotional Intel Blog - Bottom Button */
+input.MyButton6 {
+	position: center;
+	width: 250px;
+	padding: 20px;
+	cursor: pointer;
+	font-weight: bold;
+	font-size:110%;
+	background-color:#66a3ff;
+    color: #003d99;
 	border: 3px solid blue;
-	border-radius: 25px;
+	border-radius: 5px;
 	float: right;
 	}
 input.MyButton6:hover {
@@ -242,7 +305,96 @@ input.MyButton6:hover {
 	color: white;
 	border: 3px solid #fff;
 	}	
-		
+
+/*************************************************************************/
+/*Reflection Blog One - Dropdown Header Button  */
+.dropbtn7 {
+    background-color:#ff4da6;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Reflection One - Blog Bottom Button*/
+input.MyButton2 {
+	width: 250px;
+	padding: 20px;
+	cursor: pointer;
+	font-weight: bold;
+	font-size:110%;
+	background-color:#ff4da6;
+    color: black;
+	border: 3px solid black;
+	border-radius: 5px;
+	float: right;
+	}
+input.MyButton2:hover {
+	background-color: brown;
+	color: white;
+	border: 3px solid #fff;
+	}
+
+/*************************************************************************/
+/* MAIN DROPDOWN CODE*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #00e600;
+}
+/**********************************************************************/
+/* HOME PAGE ICON BAR*/
+
+.icon-bar {
+    width: 90px; /* Set a specific width */
+    background-color: #555; /* Dark-grey background */
+}
+
+.icon-bar a {
+    display: block; /* Make the links appear below each other instead of side-by-side */
+    text-align: center; /* Center-align text */
+    padding: 16px; /* Add some padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: white; /* White text color */
+    font-size: 36px; /* Increased font-size */
+}
+
+.icon-bar a:hover {
+    background-color: #000; /* Add a hover color */
+}
+
+.active {
+    background-color: #4CAF50; /* Add an active/current color */
+}
+
+/******************************************************/
+/* PAGE FOOTER*/
 .footer {
 	text-align: center;
 	font-weight: bold;
@@ -252,75 +404,4 @@ input.MyButton6:hover {
 	width: 100%;
 	color: #000;
 	}
-
-/* Dropdown Button */
-.dropbtn {
-    background-color: black;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-}
-
-.navbar {
-    overflow: hidden;
-    background-color: #333;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.navbar a {
-    float: right;
-    font-size: 16px;
-    color: white;
-	text-align: center;
-	padding: 14px 16px;
-    text-decoration: none;
-}
-
-.dropdown {
-    float: left;
-    overflow: hidden;
-}
-
-.dropdown .dropbtn {
-    font-size: 20px;    
-    border: none;
-    outline: none;
-	color: white;
-	padding: 14px 16px;
-	border-style: double;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-}
-
-.navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: gray;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 150px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-.dropdown-content a {
-    float: none;
-    color: black;
-    padding: 15px 15px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
-
-.dropdown-content a:hover {
-    background-color: #ddd;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
+/******************************************************/
