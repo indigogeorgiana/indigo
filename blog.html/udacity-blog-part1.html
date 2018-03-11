@@ -4,6 +4,8 @@
    <title>Udacity Blog Part One</title>
     <meta charset="UTF-8">
      <link href="../styles/main.css" rel="stylesheet" type="text/css"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">     
       </head>
         <body>
         <div class="background3">
@@ -47,7 +49,7 @@
               <li><b>DOM</b> - A Document Object Model (DOM) is an application programming interface (API) used for valid HTML. With the DOM, programmers can build websites, add, modify or delete elements and content. Languages like HTML, CSS, and XHTML can be accessed, altered or using the DOM.</li>
               </ul>
              
-              <div class="h2"><strong>Building a website is just like writing a book....say what?</strong> </div>
+              <div class="h2"><strong>Building a website is just like writing a book...say what?</strong> </div>
               <ul class="a">
               <p>For anyone who has ever written a book (me) they would likely tell you that the above statement is not entirely accurate. However, in my opinion in principal, the basics of writing a book are somewhat similar.</li>    
               <li>For a best selling book we'll need a book idea and an expert ghostwriter or novelist. In walks our expert Web Developer or depending on the size of the project a team of Web Developers to code and build your website.</li>
@@ -58,7 +60,7 @@
             
               <div class="h2"><strong>What is meant by boxifying design?</strong></div>
               <ul class="a">
-              <p>Everything on a website is actually a box...that's amazing!! Simply put boxifying design is a method of taking everything needed to build a webpage and dividing them into various boxes.
+            <p>Everything on a website is actually a box wow...that's amazeballs!! Simply put boxifying design is a method of taking everything needed to build a webpage and dividing them into various boxes.
                Boxifying all content of your webiste is quite a simple method. Before coding your website think first about everything that will be on your website. Grabbing a paper and pencil you can make space for images, text, headers, links and other content.</p>
                 <p>Some the benefits to using the  boxifying design  concept are:</p>
              
@@ -76,7 +78,7 @@
                </ul> 
                <br></br>
               <center>
-                  <img src="../img/box-model.jpg" alt="Box Model">
+                  <img src="/C:/Users/GhostWriter/.babun/cygwin/home/GhostWriter/img/box-model.jpg" alt="Box Model">
                 </center>
               <br></br>
               <br></br>
@@ -84,6 +86,28 @@
               <br></br>
               <input class="MyButton4" type="button" value="Return to homepage" onclick="window.location.href='//C:/Users/GhostWriter/.babun/cygwin/home/GhostWriter/workspace/indigogeorgiana/index.html'"/>
           <div class="footer">&#169; 2018 Web Dev Wannabe</div>
-       </div>
+          <script>
+            /* When the user clicks on the button, 
+            toggle between hiding and showing the dropdown content */
+            function myFunction() {
+                document.getElementById("myDropdown").classList.toggle("show");
+            }
+            
+            // Close the dropdown if the user clicks outside of it
+            window.onclick = function(event) {
+              if (!event.target.matches('.dropbtn')) {
+            
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                  var openDropdown = dropdowns[i];
+                  if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                  }
+                }
+              }
+            }
+      </script>
+        </div>
   </body>
 </html>

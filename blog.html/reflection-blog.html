@@ -4,7 +4,8 @@
     <title>Reflection Blog One</title>
      <meta charset="UTF-8">
       <link href="../styles/main.css" rel="stylesheet" type="text/css"/>
-       
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">     
               </head>
                <body>
                 <div class="background1">
@@ -63,6 +64,28 @@
               
                 <input class="MyButton2" type="button" value="Return to homepage" onclick="window.location.href='//C:/Users/GhostWriter/.babun/cygwin/home/GhostWriter/workspace/indigogeorgiana/index.html'"/>                    
           <div class="footer">&#169; 2018 Web Dev Wannabe</div>
-      </div>              
+          <script>
+            /* When the user clicks on the button, 
+            toggle between hiding and showing the dropdown content */
+            function myFunction() {
+                document.getElementById("myDropdown").classList.toggle("show");
+            }
+            
+            // Close the dropdown if the user clicks outside of it
+            window.onclick = function(event) {
+              if (!event.target.matches('.dropbtn')) {
+            
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                  var openDropdown = dropdowns[i];
+                  if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                  }
+                }
+              }
+            }
+      </script>
+        </div>              
   </body>
 </html>
