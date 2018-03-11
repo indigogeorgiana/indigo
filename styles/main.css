@@ -4,26 +4,25 @@
 body, html {
 	margin: 0;
 	height:100%;
-}
+	}
 
 ul li {
 	font-family: Calibri;
 	font-size: 110%;
-	font-weight: 100%;
 	padding: 20px 90px 10px 150px;
 	color: #000;
-}
+	}	
 
 ul.a {
 	list-style-position: inside;
 	padding: 0 50px 0px 15px;
-}
+	}
 
-nav ul {
+nav h1 {
 	padding: 0 10px 0 80px;
 	display: inline-block;
 	background: black;
-}
+	}
 
 p 	{
 	font-family: Calibri;
@@ -32,7 +31,17 @@ p 	{
 	color: #000;
 	}
 /***************************************************************************************/
-/* Main Headings*/	
+/* Main Headings*/
+
+h1 {
+	font-size: 200%;
+	font-family: Calibri;
+	font-weight: bold;
+	padding: 5px 15px 5px 100px;
+	color: white;
+	display: inline;
+	}
+
 .h1 {
 	font-family: Calibri;
 	font-size: 190%;
@@ -59,7 +68,8 @@ p 	{
 	text-align: center;
 	padding: 10px 0 20px 20px;
 	color: black;
-}
+	}
+
 /* Web Page Headers*/
 header {
 	padding: 10px 10px 5px 150px;
@@ -68,14 +78,6 @@ header {
 	opacity: 0.7;
 	}
 
-.mainheader {
-	font-size: 200%;
-	font-family: Calibri;
-	font-weight: bold;
-	padding: 5px 15px 5px 100px;
-	color: white;
-	display: inline;
-	} 
 /***********************************************************************************/
 /*IMAGE CONTENT*/
 
@@ -168,7 +170,7 @@ header {
     font-size: 16px;
     border: none;
 	cursor: pointer;
- }
+	}
  	
 /**********************************************************************************/
 /* Udacity Blog Part One - Dropdown Button*/
@@ -179,7 +181,7 @@ header {
     font-size: 16px;
     border: none;
     cursor: pointer;
-}	  
+	}	  
 
  /*Udacity Blog Part 1 - Buttons */
  input.MyButton4 {
@@ -209,7 +211,7 @@ input.MyButton4:hover {
     font-size: 16px;
     border: none;
     cursor: pointer;
-}
+	}
 
 /*Udacity Part 2 Dropdown Header Button 3 */
 .dropbtn3 {
@@ -219,7 +221,8 @@ input.MyButton4:hover {
     font-size: 16px;
     border: none;
     cursor: pointer;
-}
+	}
+
 /* Udacity Part 2 Dropdown Header Button 4*/
 .dropbtn4 {
     background-color: #b3ffff;
@@ -228,7 +231,7 @@ input.MyButton4:hover {
     font-size: 16px;
     border: none;
     cursor: pointer;
-}
+	}
 
 /*Udacity Part 2 Bottom Button*/
 input.MyButton5 {
@@ -257,7 +260,7 @@ input.MyButton5:hover {
     font-size: 16px;
     border: none;
     cursor: pointer;
-}
+	}
 /* Time & Habits Blog Bottom Page Button */
 input.MyButton3 {
 	width: 250px;
@@ -286,9 +289,9 @@ input.MyButton3:hover {
     border: none;
     cursor: pointer;
 	}
+
 /* Emotional Intel Blog - Bottom Button */
 input.MyButton6 {
-	position: center;
 	width: 250px;
 	padding: 20px;
 	cursor: pointer;
@@ -315,7 +318,7 @@ input.MyButton6:hover {
     font-size: 16px;
     border: none;
     cursor: pointer;
-}
+	}
 
 /* Reflection One - Blog Bottom Button*/
 input.MyButton2 {
@@ -341,7 +344,7 @@ input.MyButton2:hover {
 .dropdown {
     position: relative;
     display: inline-block;
-}
+	}
 
 .dropdown-content {
     display: none;
@@ -350,31 +353,31 @@ input.MyButton2:hover {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-}
+	}
 
 .dropdown-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-}
+	}
 
 .dropdown-content a:hover {background-color: #f1f1f1}
 
 .dropdown:hover .dropdown-content {
     display: block;
-}
+	}	
 
 .dropdown:hover .dropbtn {
     background-color: #00e600;
-}
+	}
 /**********************************************************************/
 /* HOME PAGE ICON BAR*/
 
 .icon-bar {
     width: 90px; /* Set a specific width */
     background-color: #555; /* Dark-grey background */
-}
+	}
 
 .icon-bar a {
     display: block; /* Make the links appear below each other instead of side-by-side */
@@ -383,15 +386,15 @@ input.MyButton2:hover {
     transition: all 0.3s ease; /* Add transition for hover effects */
     color: white; /* White text color */
     font-size: 36px; /* Increased font-size */
-}
+	}
 
 .icon-bar a:hover {
     background-color: #000; /* Add a hover color */
-}
+	}
 
 .active {
     background-color: #4CAF50; /* Add an active/current color */
-}
+	}
 
 /******************************************************/
 /* PAGE FOOTER*/
